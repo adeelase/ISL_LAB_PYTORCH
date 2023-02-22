@@ -140,4 +140,4 @@ def sample_test(model1, test_data):
     with torch.no_grad():
         pred = model1(x)
         predicted, actual = classes[pred[0].argmax(0)], classes[y]
-        print(f'Predicted: "{predicted}", Actual: "{actual}"'
+        print(f'Predicted: "{predicted}", Actual: "{actual}"')
